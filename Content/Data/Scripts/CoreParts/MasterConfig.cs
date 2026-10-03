@@ -15,7 +15,9 @@ namespace Scripts
                 MWI_SKC_02_Mk1,
                 MWI_TEL_03_Mk1,
                 MWI_MEL_04_Mk1,
-                MWI_TKM_06_Mk1
+                MWI_TKM_06_Mk1,
+                MWI_TKC_07_Mk1,
+                MWI_SKR_08_Mk1_S
             );
 
 

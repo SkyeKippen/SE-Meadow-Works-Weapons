@@ -25,7 +25,7 @@
             <Category>SHOT</Category>
             <MaxDistance>200</MaxDistance>
             <PreventSynchronization>0</PreventSynchronization>
-            <Volume>20.0</Volume>
+            <Volume>30.0</Volume>
             <Waves>
                 <Wave Type="D3">
                     <Start>Audio\MWI_SKC_02_Mk1_Shoot.wav</Start>
@@ -36,15 +36,15 @@
         <Sound>
             <Id>
                 <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
-                <SubtypeId>MWI_Arc_TEL_06_Mk1_Shoot</SubtypeId>
+                <SubtypeId>MWI_Arc_TEL_03_Mk1_Shoot</SubtypeId>
             </Id>
             <Category>SHOT</Category>
             <MaxDistance>200</MaxDistance>
             <PreventSynchronization>0</PreventSynchronization>
-            <Volume>0.5</Volume>
+            <Volume>0.05</Volume>
             <Waves>
                 <Wave Type="D3">
-                    <Start>Audio\MWI_TEC_01_Mk1_Shoot.wav</Start>
+                    <Start>Audio\MWI_TEL_03_Mk1_Shoot.wav</Start>
                 </Wave>
             </Waves>
         </Sound>
@@ -57,7 +57,7 @@
             <Category>SHOT</Category>
             <MaxDistance>200</MaxDistance>
             <PreventSynchronization>0</PreventSynchronization>
-            <Volume>0.1</Volume>
+            <Volume>0.08</Volume>
             <Waves>
                 <Wave Type="D3">
                     <Start>Audio\MWI_MEL_04_Mk1_Shoot.wav</Start>
@@ -77,6 +77,38 @@
             <Waves>
                 <Wave Type="D3">
                     <Start>Audio\MWI_TKM_06_Mk1_Shoot.wav</Start>
+                </Wave>
+            </Waves>
+        </Sound>
+
+        <Sound>
+            <Id>
+                <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+                <SubtypeId>MWI_Arc_TKC_07_Mk1_Shoot</SubtypeId>
+            </Id>
+            <Category>SHOT</Category>
+            <MaxDistance>200</MaxDistance>
+            <PreventSynchronization>0</PreventSynchronization>
+            <Volume>25.0</Volume>
+            <Waves>
+                <Wave Type="D3">
+                    <Start>Audio\MWI_TKC_07_Mk1_Shoot.wav</Start>
+                </Wave>
+            </Waves>
+        </Sound>
+
+        <Sound>
+            <Id>
+                <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+                <SubtypeId>MWI_Arc_SKR_08_Mk1_S_Shoot</SubtypeId>
+            </Id>
+            <Category>SHOT</Category>
+            <MaxDistance>200</MaxDistance>
+            <PreventSynchronization>0</PreventSynchronization>
+            <Volume>10.0</Volume>
+            <Waves>
+                <Wave Type="D3">
+                    <Start>Audio\MWI_TKC_07_Mk1_Shoot.wav</Start>
                 </Wave>
             </Waves>
         </Sound>

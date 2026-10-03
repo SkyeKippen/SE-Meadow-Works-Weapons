@@ -172,7 +172,7 @@ namespace Scripts {
                     ReloadTime = 600, // Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
                     MagsToLoad = 2, // Number of physical magazines to consume on reload.
                     DelayUntilFire = 0, // How long the weapon waits before shooting after being told to fire. Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
-                    HeatPerShot = 250, // Heat generated per shot (BarrelsPerShot * HeatPerShot is the total heat per firing event).
+                    HeatPerShot = 0, // Heat generated per shot (BarrelsPerShot * HeatPerShot is the total heat per firing event).
                     MaxHeat = 5000, // Max heat before weapon enters cooldown (70% of max heat).
                     Cooldown = .80f, // Percentage of max heat to be under to start firing again after overheat; accepts 0 - 0.95
                     HeatSinkRate = 200, // Amount of heat lost per second.
@@ -220,7 +220,7 @@ namespace Scripts {
                 {
                     Effect1 = new ParticleDef
                     {
-                        Name = "MWI_Muzzle_Flash_TEC_01_Mk1", // SubtypeId of muzzle particle effect.
+                        Name = "Muzzle_Flash_LargeCalibre", // SubtypeId of muzzle particle effect.
                         Offset = Vector(x: 0, y: 0, z: 0), // Offsets the effect from the muzzle empty.
                         DisableCameraCulling = false, // If not true will not cull when not in view of camera, be careful with this and only use if you know you need it
                         Extras = new ParticleOptionDef
