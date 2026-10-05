@@ -5,6 +5,7 @@
         <Entry Class="EliteConsumables" BlueprintSubtypeId="MWI_SKC_02_Mk1_AmmoBP" />
         <Entry Class="EliteConsumables" BlueprintSubtypeId="MWI_TKM_06_Mk1_AmmoBP" />
         <Entry Class="EliteConsumables" BlueprintSubtypeId="MWI_SKR_08_Mk1_S_AmmoBP" />
+        <Entry Class="EliteConsumables" BlueprintSubtypeId="MWI_TKC_09_Mk1_AmmoBP" />
     </BlueprintClassEntries>
     
     <Blueprints>
@@ -22,7 +23,7 @@
                 <Item Amount="8" TypeId="Ingot" SubtypeId="Magnesium" />
             </Prerequisites>
             <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="MWI_SKC_02_Mk1_AmmoMag" />
-            <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+            <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
         </Blueprint>
 
         <Blueprint>
@@ -56,6 +57,23 @@
             </Prerequisites>
             <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="MWI_SKR_08_Mk1_S_AmmoMag" />
             <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>MWI_TKC_09_Mk1_AmmoBP</SubtypeId>
+            </Id>
+            <DisplayName>TKC-09 Mk1 Shell</DisplayName>
+            <Icon>Textures\GUI\Icons\Ammo\MWI_TKC_09_Mk1_Ammo.dds</Icon>
+            <Prerequisites>
+                <Item Amount="140" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="40" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="10" TypeId="Ingot" SubtypeId="Cobalt" />
+                <Item Amount="80" TypeId="Ingot" SubtypeId="Magnesium" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="MWI_TKC_09_Mk1_AmmoMag" />
+            <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
         </Blueprint>
 
     </Blueprints>
