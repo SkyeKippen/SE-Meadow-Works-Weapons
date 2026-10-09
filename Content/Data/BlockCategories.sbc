@@ -9,15 +9,18 @@
                 <TypeId>GuiBlockCategoryDefinition</TypeId>
                 <SubtypeId/>
             </Id>
-            <DisplayName>MWI Weapons</DisplayName>
-            <Name>MWIWeapons</Name>
+            <DisplayName>MW Weapons</DisplayName>
+            <Name>MWWeapons</Name>
             <StrictSearch>true</StrictSearch>
             <ItemIds>
-                <string>ConveyorSorter/MWI_TEC_01_Mk1</string>
-                <string>ConveyorSorter/MWI_SKC_02_Mk1</string>
-                <string>ConveyorSorter/MWI_TEL_03_Mk1</string>
-                <string>ConveyorSorter/MWI_MEL_04_Mk1</string>
-                <string>ConveyorSorter/MWI_TKM_06_Mk1</string>
+                <string>ConveyorSorter/MW_TEC_01_Mk1</string>
+                <string>ConveyorSorter/MW_SKC_02_Mk1</string>
+                <string>ConveyorSorter/MW_TEL_03_Mk1</string>
+                <string>ConveyorSorter/MW_MEL_04_Mk1</string>
+                <string>ConveyorSorter/MW_TKM_06_Mk1</string>
+                <string>ConveyorSorter/MW_TKC_07_Mk1</string>
+                <string>ConveyorSorter/MW_SKR_08_Mk1_S</string>
+                <string>ConveyorSorter/MW_TKC_09_Mk1</string>
             </ItemIds>
         </Category>
 
