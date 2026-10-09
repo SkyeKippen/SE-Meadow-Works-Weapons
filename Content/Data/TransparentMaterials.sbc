@@ -4,12 +4,12 @@
         <TransparentMaterial>
             <Id>
                 <TypeId>TransparentMaterialDefinition</TypeId>
-                <SubtypeId>MWI_TEC_01_Mk1</SubtypeId>
+                <SubtypeId>MW_TEC_01_Mk1</SubtypeId>
             </Id>
             <AlphaMistingEnable>false</AlphaMistingEnable>
             <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
             <SoftParticleDistanceScale>1</SoftParticleDistanceScale>
-            <Texture>Textures\MWI_TEC_01_Mk1_Ammo.dds</Texture>
+            <Texture>Textures\MW_TEC_01_Mk1_Ammo.dds</Texture>
             <UseAtlas>false</UseAtlas>
             <Color>
                 <X>1</X>

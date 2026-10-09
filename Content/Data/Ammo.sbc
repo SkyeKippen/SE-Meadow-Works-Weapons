@@ -5,7 +5,7 @@
         <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
             <Id>
                 <TypeId>AmmoDefinition</TypeId>
-                <SubtypeId>MWI_SKC_02_Mk1_Ammo</SubtypeId>
+                <SubtypeId>MW_SKC_02_Mk1_Ammo</SubtypeId>
             </Id>
             <BasicProperties>
                 <DesiredSpeed>800</DesiredSpeed>
@@ -28,7 +28,7 @@
         <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
             <Id>
                 <TypeId>AmmoDefinition</TypeId>
-                <SubtypeId>MWI_TKM_06_Mk1_Ammo</SubtypeId>
+                <SubtypeId>MW_TKM_06_Mk1_Ammo</SubtypeId>
             </Id>
             <BasicProperties>
                 <DesiredSpeed>800</DesiredSpeed>
@@ -51,7 +51,7 @@
         <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
             <Id>
                 <TypeId>AmmoDefinition</TypeId>
-                <SubtypeId>MWI_SKR_08_Mk1_S_Ammo</SubtypeId>
+                <SubtypeId>MW_SKR_08_Mk1_S_Ammo</SubtypeId>
             </Id>
             <BasicProperties>
                 <DesiredSpeed>800</DesiredSpeed>
@@ -74,7 +74,7 @@
         <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
             <Id>
                 <TypeId>AmmoDefinition</TypeId>
-                <SubtypeId>MWI_TKC_09_Mk1_Ammo</SubtypeId>
+                <SubtypeId>MW_TKC_09_Mk1_Ammo</SubtypeId>
             </Id>
             <BasicProperties>
                 <DesiredSpeed>800</DesiredSpeed>

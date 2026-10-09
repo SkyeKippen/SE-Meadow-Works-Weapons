@@ -1,4 +1,4 @@
-﻿# MWI Weapons
+﻿# MW Weapons
 
 ### Development Sections Per Weapon
 1) Modeling
@@ -33,20 +33,20 @@ C - Capital (Anything larger)\
 W - Super Weapon (Special)
 
 ### Tallies (Existing Weapons Only)
-LG: 6\
+LG: 7\
 SG: 1
 
-Kinetic: 4\
+Kinetic: 5\
 Energy: 3\
 EWAR: 0
 
-Cannon: 3\
+Cannon: 4\
 Laser: 2\
 Repeater/Autocannon: 1\
 Gatling/PDC: 0\
 Missile: 1
 
-Tiny: 4\
+Tiny: 5\
 Small: 2\
 Medium: 1\
 Large: 0\

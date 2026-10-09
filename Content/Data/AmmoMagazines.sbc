@@ -5,10 +5,10 @@
         <AmmoMagazine>
             <Id>
                 <TypeId>AmmoMagazine</TypeId>
-                <SubtypeId>MWI_SKC_02_Mk1_AmmoMag</SubtypeId>
+                <SubtypeId>MW_SKC_02_Mk1_AmmoMag</SubtypeId>
             </Id>
             <DisplayName>SKC-02 Mk1 Shell</DisplayName>
-            <Icon>Textures\GUI\Icons\Ammo\MWI_SKC_02_Mk1_Ammo.dds</Icon>
+            <Icon>Textures\GUI\Icons\Ammo\MW_SKC_02_Mk1_Ammo.dds</Icon>
             <Size>
                 <X>0.25</X>
                 <Y>0.2</Y>
@@ -16,10 +16,10 @@
             </Size>
             <Mass>120</Mass>
             <Volume>120</Volume>
-            <Model>Models\Ammo\MWI_SKC_02_Mk1_Shell.mwm</Model>
+            <Model>Models\Ammo\MW_SKC_02_Mk1_Shell.mwm</Model>
             <PhysicalMaterial>Ammo</PhysicalMaterial>
             <Capacity>1</Capacity>
-            <AmmoDefinitionId Subtype="MWI_SKC_02_Mk1_Ammo" />
+            <AmmoDefinitionId Subtype="MW_SKC_02_Mk1_Ammo" />
 
             <MinimumOfferAmount>30</MinimumOfferAmount>
             <MaximumOfferAmount>300</MaximumOfferAmount>
@@ -31,10 +31,10 @@
         <AmmoMagazine>
             <Id>
                 <TypeId>AmmoMagazine</TypeId>
-                <SubtypeId>MWI_TKM_06_Mk1_AmmoMag</SubtypeId>
+                <SubtypeId>MW_TKM_06_Mk1_AmmoMag</SubtypeId>
             </Id>
             <DisplayName>TKM-06 Mk1 Missile Round</DisplayName>
-            <Icon>Textures\GUI\Icons\Ammo\MWI_TKM_06_Mk1_Ammo.dds</Icon>
+            <Icon>Textures\GUI\Icons\Ammo\MW_TKM_06_Mk1_Ammo.dds</Icon>
             <Size>
                 <X>0.25</X>
                 <Y>0.2</Y>
@@ -42,10 +42,10 @@
             </Size>
             <Mass>12</Mass>
             <Volume>4</Volume>
-            <Model>Models\Ammo\MWI_TKM_06_Mk1_Ammo.mwm</Model>
+            <Model>Models\Ammo\MW_TKM_06_Mk1_Ammo.mwm</Model>
             <PhysicalMaterial>Ammo</PhysicalMaterial>
             <Capacity>1</Capacity>
-            <AmmoDefinitionId Subtype="MWI_TKM_06_Mk1_Ammo" />
+            <AmmoDefinitionId Subtype="MW_TKM_06_Mk1_Ammo" />
 
             <MinimumOfferAmount>30</MinimumOfferAmount>
             <MaximumOfferAmount>300</MaximumOfferAmount>
@@ -57,10 +57,10 @@
         <AmmoMagazine>
             <Id>
                 <TypeId>AmmoMagazine</TypeId>
-                <SubtypeId>MWI_TKC_07_Mk1_AmmoMag</SubtypeId>
+                <SubtypeId>MW_TKC_07_Mk1_AmmoMag</SubtypeId>
             </Id>
             <DisplayName>TKC-07 Mk1 Shell</DisplayName>
-            <Icon>Textures\GUI\Icons\Ammo\MWI_SKC_02_Mk1_Ammo.dds</Icon>
+            <Icon>Textures\GUI\Icons\Ammo\MW_SKC_02_Mk1_Ammo.dds</Icon>
             <Size>
                 <X>0.25</X>
                 <Y>0.2</Y>
@@ -68,10 +68,10 @@
             </Size>
             <Mass>40</Mass>
             <Volume>40</Volume>
-            <Model>Models\Ammo\MWI_SKC_02_Mk1_Shell.mwm</Model>
+            <Model>Models\Ammo\MW_SKC_02_Mk1_Shell.mwm</Model>
             <PhysicalMaterial>Ammo</PhysicalMaterial>
             <Capacity>1</Capacity>
-            <AmmoDefinitionId Subtype="MWI_TKC_07_Mk1_Ammo" />
+            <AmmoDefinitionId Subtype="MW_TKC_07_Mk1_Ammo" />
 
             <MinimumOfferAmount>30</MinimumOfferAmount>
             <MaximumOfferAmount>300</MaximumOfferAmount>
@@ -83,10 +83,10 @@
         <AmmoMagazine>
             <Id>
                 <TypeId>AmmoMagazine</TypeId>
-                <SubtypeId>MWI_SKR_08_Mk1_S_AmmoMag</SubtypeId>
+                <SubtypeId>MW_SKR_08_Mk1_S_AmmoMag</SubtypeId>
             </Id>
             <DisplayName>SKR-08 Mk1-S Shell</DisplayName>
-            <Icon>Textures\GUI\Icons\Ammo\MWI_SKC_02_Mk1_Ammo.dds</Icon>
+            <Icon>Textures\GUI\Icons\Ammo\MW_SKC_02_Mk1_Ammo.dds</Icon>
             <Size>
                 <X>0.25</X>
                 <Y>0.2</Y>
@@ -97,7 +97,7 @@
             <Model>Models\Weapons\AutocanonShell.mwm</Model>
             <PhysicalMaterial>Ammo</PhysicalMaterial>
             <Capacity>1</Capacity>
-            <AmmoDefinitionId Subtype="MWI_SKR_08_Mk1_S_Ammo" />
+            <AmmoDefinitionId Subtype="MW_SKR_08_Mk1_S_Ammo" />
         
             <MinimumOfferAmount>30</MinimumOfferAmount>
             <MaximumOfferAmount>300</MaximumOfferAmount>
@@ -109,10 +109,10 @@
         <AmmoMagazine>
             <Id>
                 <TypeId>AmmoMagazine</TypeId>
-                <SubtypeId>MWI_TKC_09_Mk1_AmmoMag</SubtypeId>
+                <SubtypeId>MW_TKC_09_Mk1_AmmoMag</SubtypeId>
             </Id>
             <DisplayName>TKC-09 Mk1 Shell</DisplayName>
-            <Icon>Textures\GUI\Icons\Ammo\MWI_SKC_02_Mk1_Ammo.dds</Icon>
+            <Icon>Textures\GUI\Icons\Ammo\MW_SKC_02_Mk1_Ammo.dds</Icon>
             <Size>
                 <X>0.25</X>
                 <Y>0.2</Y>
@@ -120,10 +120,10 @@
             </Size>
             <Mass>1000</Mass>
             <Volume>500</Volume>
-            <Model>Models\Ammo\MWI_TKC_09_Mk1_Ammo.mwm</Model>
+            <Model>Models\Ammo\MW_TKC_09_Mk1_Ammo.mwm</Model>
             <PhysicalMaterial>Ammo</PhysicalMaterial>
             <Capacity>1</Capacity>
-            <AmmoDefinitionId Subtype="MWI_TKC_09_Mk1_Ammo" />
+            <AmmoDefinitionId Subtype="MW_TKC_09_Mk1_Ammo" />
 
             <MinimumOfferAmount>30</MinimumOfferAmount>
             <MaximumOfferAmount>300</MaximumOfferAmount>
