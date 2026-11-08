@@ -95,5 +95,5 @@ Super Weapon: 0
 - `CEE_05_Mk1 ""` - Capital Energy EWAR-EMP Mk1 - Fixed - Single-Shot Ion Cannon capable of temporarily disabling small ships or sections of larger ships.
 - `TKM_06_Mk1 ""` - Tiny Kinetic Missile Mk1 - Fixed - 8 Micro Missile burst designed for targeting SG. Individual low damage. Reduced damage to LG.
 - `TKC_07_Mk1 ""` - Tiny Kinetic Cannon Mk1 - Turret - TEC-01, but a physical projectile instead of energy.
-- `SKB_08_Mk1_S ""` - Small Kinetic Repeater Mk1 Small (SG) - Fixed - Similar to vanilla autocannon, but fires a 5-shot burst with a short reload.
+- `SKR_08_Mk1_S ""` - Small Kinetic Repeater Mk1 Small (SG) - Fixed - Similar to vanilla autocannon, but fires a 5-shot burst with a short reload.
 - `TKC_09_Mk1 ""` - Tiny Kinetic Cannon Mk1 - Fixed - Broadside-style fixed cannon, very heavy cannon but unable to rotate or elevate. Low speed, very high damage, very long reload.

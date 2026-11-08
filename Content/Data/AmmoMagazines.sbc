@@ -132,5 +132,83 @@
             <CanPlayerOrder>true</CanPlayerOrder>
         </AmmoMagazine>
 
+        <AmmoMagazine>
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>MW_TKC_10_Mk1_AmmoMag</SubtypeId>
+            </Id>
+            <DisplayName>TKC-10 Mk1 Shell</DisplayName>
+            <Icon>Textures\GUI\Icons\Ammo\MW_TKC_10_Mk1_Shell.dds</Icon>
+            <Size>
+                <X>0.25</X>
+                <Y>0.2</Y>
+                <Z>0.2</Z>
+            </Size>
+            <Mass>80</Mass>
+            <Volume>30</Volume>
+            <Model>Models\Ammo\MW_TKC_10_Mk1_Shell.mwm</Model>
+            <PhysicalMaterial>Ammo</PhysicalMaterial>
+            <Capacity>1</Capacity>
+            <AmmoDefinitionId Subtype="MW_TKC_10_Mk1_Ammo" />
+
+            <MinimumOfferAmount>30</MinimumOfferAmount>
+            <MaximumOfferAmount>300</MaximumOfferAmount>
+            <MinimumOrderAmount>10</MinimumOrderAmount>
+            <MaximumOrderAmount>1000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </AmmoMagazine>
+
+        <AmmoMagazine>
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>MW_SHR_11_Mk1_AmmoMag</SubtypeId>
+            </Id>
+            <DisplayName>SHR-11 Mk1 Sabot</DisplayName>
+            <Icon>Textures\GUI\Icons\Ammo\MW_SHR_11_Mk1_Ammo.dds</Icon>
+            <Size>
+                <X>0.25</X>
+                <Y>0.2</Y>
+                <Z>0.2</Z>
+            </Size>
+            <Mass>500</Mass>
+            <Volume>60</Volume>
+            <Model>Models\Ammo\MW_SHR_11_Mk1_Ammo.mwm</Model>
+            <PhysicalMaterial>Ammo</PhysicalMaterial>
+            <Capacity>1</Capacity>
+            <AmmoDefinitionId Subtype="MW_SHR_11_Mk1_Ammo" />
+
+            <MinimumOfferAmount>30</MinimumOfferAmount>
+            <MaximumOfferAmount>300</MaximumOfferAmount>
+            <MinimumOrderAmount>10</MinimumOrderAmount>
+            <MaximumOrderAmount>1000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </AmmoMagazine>
+
+        <AmmoMagazine>
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>MW_SKC_02_Mk2_AmmoMag</SubtypeId>
+            </Id>
+            <DisplayName>SKC-02 Mk2 Shell</DisplayName>
+            <Icon>Textures\GUI\Icons\Ammo\MW_SKC_02_Mk2_Ammo.dds</Icon>
+            <Size>
+                <X>0.25</X>
+                <Y>0.2</Y>
+                <Z>0.2</Z>
+            </Size>
+            <Mass>250</Mass>
+            <Volume>45</Volume>
+            <Model>Models\Ammo\MW_SKC_02_Mk2_Ammo.mwm</Model>
+            <PhysicalMaterial>Ammo</PhysicalMaterial>
+            <Capacity>1</Capacity>
+            <AmmoDefinitionId Subtype="MW_SKC_02_Mk2_Ammo" />
+
+            <MinimumOfferAmount>30</MinimumOfferAmount>
+            <MaximumOfferAmount>300</MaximumOfferAmount>
+            <MinimumOrderAmount>10</MinimumOrderAmount>
+            <MaximumOrderAmount>1000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </AmmoMagazine>
+
     </AmmoMagazines>
 </Definitions>
