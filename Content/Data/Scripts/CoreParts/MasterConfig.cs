@@ -13,12 +13,15 @@ namespace Scripts
             PartDefinitions(
                 MW_TEC_01_Mk1,
                 MW_SKC_02_Mk1,
+                MW_SKC_02_Mk2,
                 MW_TEL_03_Mk1,
                 MW_MEL_04_Mk1,
                 MW_TKM_06_Mk1,
                 MW_TKC_07_Mk1,
                 MW_SKR_08_Mk1_S,
-                MW_TKC_09_Mk1
+                MW_TKC_09_Mk1,
+                MW_TKC_10_Mk1,
+                MW_SHR_11_Mk1
             );
 
 

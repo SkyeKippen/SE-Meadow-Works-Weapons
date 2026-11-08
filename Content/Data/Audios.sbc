@@ -112,6 +112,70 @@
                 </Wave>
             </Waves>
         </Sound>
-        
+
+        <Sound>
+            <Id>
+                <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+                <SubtypeId>MW_TKC_10_Mk1_Shoot</SubtypeId>
+            </Id>
+            <Category>SHOT</Category>
+            <MaxDistance>200</MaxDistance>
+            <PreventSynchronization>0</PreventSynchronization>
+            <Volume>25.0</Volume>
+            <Waves>
+                <Wave Type="D3">
+                    <Start>Audio\MW_TKC_10_Mk1_Shoot.wav</Start>
+                </Wave>
+            </Waves>
+        </Sound>
+
+        <Sound>
+            <Id>
+                <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+                <SubtypeId>MW_SHR_11_Mk1_Charge</SubtypeId>
+            </Id>
+            <Category>SHOT</Category>
+            <MaxDistance>200</MaxDistance>
+            <PreventSynchronization>0</PreventSynchronization>
+            <Volume>1.0</Volume>
+            <Waves>
+                <Wave Type="D3">
+                    <Start>Audio\MW_SHR_11_Mk1_Charge.wav</Start>
+                </Wave>
+            </Waves>
+        </Sound>
+
+        <Sound>
+            <Id>
+                <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+                <SubtypeId>MW_SHR_11_Mk1_Shoot</SubtypeId>
+            </Id>
+            <Category>SHOT</Category>
+            <MaxDistance>200</MaxDistance>
+            <PreventSynchronization>0</PreventSynchronization>
+            <Volume>1.0</Volume>
+            <Waves>
+                <Wave Type="D3">
+                    <Start>Audio\MW_SHR_11_Mk1_Shoot.wav</Start>
+                </Wave>
+            </Waves>
+        </Sound>
+
+        <Sound>
+            <Id>
+                <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+                <SubtypeId>MW_SKC_02_Mk2_Shoot</SubtypeId>
+            </Id>
+            <Category>SHOT</Category>
+            <MaxDistance>200</MaxDistance>
+            <PreventSynchronization>0</PreventSynchronization>
+            <Volume>1.0</Volume>
+            <Waves>
+                <Wave Type="D3">
+                    <Start>Audio\MW_SKC_02_Mk2_Shoot.wav</Start>
+                </Wave>
+            </Waves>
+        </Sound>
+
     </Sounds>
 </Definitions>
