@@ -5,7 +5,7 @@
         <Weapon>
             <Id>
                 <TypeId>WeaponDefinition</TypeId>
-                <SubtypeId>MW_TEC_01_Mk1</SubtypeId>
+                <SubtypeId>MW_Ember_T1</SubtypeId>
             </Id>
             <ProjectileAmmoData RateOfFire="30" ShootSoundName="WepShipAutocannonShot" ShotsInBurst="1" />
             <ReleaseTimeAfterFire>100</ReleaseTimeAfterFire>
@@ -27,7 +27,7 @@
         <Weapon>
             <Id>
                 <TypeId>WeaponDefinition</TypeId>
-                <SubtypeId>MW_SKC_02_Mk1</SubtypeId>
+                <SubtypeId>MW_Anvil_S1</SubtypeId>
             </Id>
             <ProjectileAmmoData RateOfFire="30" ShootSoundName="WepShipAutocannonShot" ShotsInBurst="1" />
             <ReleaseTimeAfterFire>100</ReleaseTimeAfterFire>
@@ -41,7 +41,7 @@
                         ParticleBirthStart="1" ParticleBirthMin="1" ParticleBirthMax="2" ParticleBirthDecrease="1" ParticleBirthIncrease="1" />
             </Effects>
             <AmmoMagazines>
-                <AmmoMagazine Subtype="MW_SKC_02_Mk1_AmmoMag" />
+                <AmmoMagazine Subtype="MW_Anvil_S1_AmmoMag" />
             </AmmoMagazines>
             <ReloadTime>4000</ReloadTime>
         </Weapon>
@@ -49,7 +49,7 @@
         <Weapon>
             <Id>
                 <TypeId>WeaponDefinition</TypeId>
-                <SubtypeId>MW_TEL_03_Mk1</SubtypeId>
+                <SubtypeId>MW_Lumen_T1</SubtypeId>
             </Id>
             <ProjectileAmmoData RateOfFire="3600" ShootSoundName="WepShipAutocannonShot" ShotsInBurst="1" />
             <ReleaseTimeAfterFire>100</ReleaseTimeAfterFire>
@@ -71,7 +71,7 @@
         <Weapon>
             <Id>
                 <TypeId>WeaponDefinition</TypeId>
-                <SubtypeId>MW_MEL_04_Mk1</SubtypeId>
+                <SubtypeId>MW_Lumen_M1</SubtypeId>
             </Id>
             <ProjectileAmmoData RateOfFire="3600" ShootSoundName="WepShipAutocannonShot" ShotsInBurst="1" />
             <ReleaseTimeAfterFire>100</ReleaseTimeAfterFire>
@@ -93,7 +93,7 @@
         <Weapon>
             <Id>
                 <TypeId>WeaponDefinition</TypeId>
-                <SubtypeId>MW_TKM_06_Mk1</SubtypeId>
+                <SubtypeId>MW_Hornet_T1</SubtypeId>
             </Id>
             <ProjectileAmmoData RateOfFire="480" ShootSoundName="WepShipAutocannonShot" ShotsInBurst="1" />
             <ReleaseTimeAfterFire>100</ReleaseTimeAfterFire>
@@ -107,7 +107,7 @@
                         ParticleBirthStart="1" ParticleBirthMin="1" ParticleBirthMax="2" ParticleBirthDecrease="1" ParticleBirthIncrease="1" />
             </Effects>
             <AmmoMagazines>
-                <AmmoMagazine Subtype="MW_TKM_06_Mk1_AmmoMag" />
+                <AmmoMagazine Subtype="MW_Hornet_T1_AmmoMag" />
             </AmmoMagazines>
             <ReloadTime>4000</ReloadTime>
         </Weapon>
@@ -115,7 +115,7 @@
         <Weapon>
             <Id>
                 <TypeId>WeaponDefinition</TypeId>
-                <SubtypeId>MW_TKC_07_Mk1</SubtypeId>
+                <SubtypeId>MW_Anvil_T1</SubtypeId>
             </Id>
             <ProjectileAmmoData RateOfFire="30" ShootSoundName="WepShipAutocannonShot" ShotsInBurst="1" />
             <ReleaseTimeAfterFire>100</ReleaseTimeAfterFire>
@@ -137,7 +137,7 @@
         <Weapon>
             <Id>
                 <TypeId>WeaponDefinition</TypeId>
-                <SubtypeId>MW_SKR_08_Mk1_S</SubtypeId>
+                <SubtypeId>MW_Rattler_S1_SG</SubtypeId>
             </Id>
             <ProjectileAmmoData RateOfFire="30" ShootSoundName="WepShipAutocannonShot" ShotsInBurst="1" />
             <ReleaseTimeAfterFire>100</ReleaseTimeAfterFire>
@@ -151,7 +151,7 @@
                         ParticleBirthStart="1" ParticleBirthMin="1" ParticleBirthMax="2" ParticleBirthDecrease="1" ParticleBirthIncrease="1" />
             </Effects>
             <AmmoMagazines>
-                <AmmoMagazine Subtype="MW_SKR_08_Mk1_S_AmmoMag" />
+                <AmmoMagazine Subtype="MW_Rattler_S1_SG_AmmoMag" />
             </AmmoMagazines>
             <ReloadTime>4000</ReloadTime>
         </Weapon>
@@ -159,7 +159,7 @@
         <Weapon>
             <Id>
                 <TypeId>WeaponDefinition</TypeId>
-                <SubtypeId>MW_TKC_09_Mk1</SubtypeId>
+                <SubtypeId>MW_Hammer_T1</SubtypeId>
             </Id>
             <ProjectileAmmoData RateOfFire="30" ShootSoundName="WepShipAutocannonShot" ShotsInBurst="1" />
             <ReleaseTimeAfterFire>100</ReleaseTimeAfterFire>
@@ -173,7 +173,7 @@
                         ParticleBirthStart="1" ParticleBirthMin="1" ParticleBirthMax="2" ParticleBirthDecrease="1" ParticleBirthIncrease="1" />
             </Effects>
             <AmmoMagazines>
-                <AmmoMagazine Subtype="MW_TKC_09_Mk1_AmmoMag" />
+                <AmmoMagazine Subtype="MW_Hammer_T1_AmmoMag" />
             </AmmoMagazines>
             <ReloadTime>4000</ReloadTime>
         </Weapon>
@@ -181,7 +181,7 @@
         <Weapon>
             <Id>
                 <TypeId>WeaponDefinition</TypeId>
-                <SubtypeId>MW_TKC_10_Mk1</SubtypeId>
+                <SubtypeId>MW_Anvil_T2</SubtypeId>
             </Id>
             <ProjectileAmmoData RateOfFire="60" ShootSoundName="WepShipAutocannonShot" ShotsInBurst="1" />
             <ReleaseTimeAfterFire>100</ReleaseTimeAfterFire>
@@ -195,7 +195,7 @@
                         ParticleBirthStart="1" ParticleBirthMin="1" ParticleBirthMax="2" ParticleBirthDecrease="1" ParticleBirthIncrease="1" />
             </Effects>
             <AmmoMagazines>
-                <AmmoMagazine Subtype="MW_TKC_10_Mk1_AmmoMag" />
+                <AmmoMagazine Subtype="MW_Anvil_T2_AmmoMag" />
             </AmmoMagazines>
             <ReloadTime>4000</ReloadTime>
         </Weapon>
@@ -203,7 +203,7 @@
         <Weapon>
             <Id>
                 <TypeId>WeaponDefinition</TypeId>
-                <SubtypeId>MW_SHR_11_Mk1</SubtypeId>
+                <SubtypeId>MW_Lance_S1</SubtypeId>
             </Id>
             <ProjectileAmmoData RateOfFire="60" ShootSoundName="WepShipAutocannonShot" ShotsInBurst="1" />
             <ReleaseTimeAfterFire>100</ReleaseTimeAfterFire>
@@ -217,7 +217,7 @@
                         ParticleBirthStart="1" ParticleBirthMin="1" ParticleBirthMax="2" ParticleBirthDecrease="1" ParticleBirthIncrease="1" />
             </Effects>
             <AmmoMagazines>
-                <AmmoMagazine Subtype="MW_SHR_11_Mk1_AmmoMag" />
+                <AmmoMagazine Subtype="MW_Lance_S1_AmmoMag" />
             </AmmoMagazines>
             <ReloadTime>4000</ReloadTime>
         </Weapon>
@@ -225,7 +225,7 @@
         <Weapon>
             <Id>
                 <TypeId>WeaponDefinition</TypeId>
-                <SubtypeId>MW_SKC_02_Mk2</SubtypeId>
+                <SubtypeId>MW_Anvil_S2</SubtypeId>
             </Id>
             <ProjectileAmmoData RateOfFire="60" ShootSoundName="WepShipAutocannonShot" ShotsInBurst="1" />
             <ReleaseTimeAfterFire>100</ReleaseTimeAfterFire>
@@ -239,7 +239,7 @@
                         ParticleBirthStart="1" ParticleBirthMin="1" ParticleBirthMax="2" ParticleBirthDecrease="1" ParticleBirthIncrease="1" />
             </Effects>
             <AmmoMagazines>
-                <AmmoMagazine Subtype="MW_SKC_02_Mk2_AmmoMag" />
+                <AmmoMagazine Subtype="MW_Anvil_S2_AmmoMag" />
             </AmmoMagazines>
             <ReloadTime>4000</ReloadTime>
         </Weapon>

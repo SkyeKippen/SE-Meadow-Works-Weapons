@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+			<Id>
+				<TypeId>ConveyorSorter</TypeId>
+				<SubtypeId>MW_Rattler_S1_SG</SubtypeId>
+			</Id>
+			<DisplayName>Rattler S1 (SG)</DisplayName>
+			<Description>Optional Text Here</Description>
+			<Icon>Textures\GUI\Icons\Cubes\MW_Rattler_S1_SG.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="4"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\MW_Rattler_S1_SG.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="10" />
+				<Component Subtype="Construction" Count="5" />
+				<Component Subtype="Motor" Count="5" />
+				<Component Subtype="LargeTube" Count="10" />
+				<Component Subtype="Computer" Count="10" />
+				<Component Subtype="SteelPlate" Count="5" />
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Enabled="false"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Default="true"/>
+				<MountPoint Side="Left" StartX="3.00" StartY="0.00" EndX="4.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="3.00" EndX="1.00" EndY="4.00"/>
+			</MountPoints>
+			<InventorySize>
+				<X>1</X>
+				<Y>1</Y>
+				<Z>0.25</Z>
+			</InventorySize>
+			<BlockPairName>MW_Rattler_S1_SG</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<WeaponDefinitionId Subtype="MW_Rattler_S1_SG" />
+			<ResourceSinkGroup>Defense</ResourceSinkGroup>
+		</Definition>
+	</CubeBlocks>
+</Definitions>

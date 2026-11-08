@@ -11,17 +11,17 @@ namespace Scripts
             // PartDefinitions(Your1stDefinition, Your2ndDefinition, Your3rdDefinition);
             // PartDefinitions includes both weapons and phantoms
             PartDefinitions(
-                MW_TEC_01_Mk1,
-                MW_SKC_02_Mk1,
-                MW_SKC_02_Mk2,
-                MW_TEL_03_Mk1,
-                MW_MEL_04_Mk1,
-                MW_TKM_06_Mk1,
-                MW_TKC_07_Mk1,
-                MW_SKR_08_Mk1_S,
-                MW_TKC_09_Mk1,
-                MW_TKC_10_Mk1,
-                MW_SHR_11_Mk1
+                MW_Ember_T1,
+                MW_Anvil_S1,
+                MW_Anvil_S2,
+                MW_Lumen_T1,
+                MW_Lumen_M1,
+                MW_Hornet_T1,
+                MW_Anvil_T1,
+                MW_Rattler_S1_SG,
+                MW_Hammer_T1,
+                MW_Anvil_T2,
+                MW_Lance_S1
             );
 
 

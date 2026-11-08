@@ -16,12 +16,21 @@ Section 7 is completely optional.
 Harder Sci-Fi, doesn't focus on any specific type of weapon.
 
 ### Naming Scheme
-SKC_01_Mk1 "Common Name"\
-S - Small (Size)\
-K - Kinetic (Damage Type (Kinetic/Energy/Hybrid))\
-C - Cannon (Cannon, Laser, Repeater, Missile, Gatling, Point-Defence, Dumb, EWAR)\
-01 - 01, 02, 03... - Iterates with each new weapon design regardless of prefix\
-Mk1 - Mk1, Mk2, Mk3 - Specifically for the same style/design of weapon, each Mk# up is generally a straight upgrade
+`<Family> <Size><Variant>`, e.g. `Anvil S2` (SubtypeId `MW_Anvil_S2`)\
+Family - One word per weapon class (see below)\
+Size - T/S/M/L/X/C/W (see Size Guidelines)\
+Variant - 1, 2, 3... - Iterates per family and size; a higher number is generally a straight upgrade or a newer design\
+Small grid weapons add `(SG)` to the name and `_SG` to the SubtypeId, e.g. `Rattler S1 (SG)` / `MW_Rattler_S1_SG`
+
+### Families
+Anvil - Kinetic cannon turret\
+Hammer - Heavy fixed kinetic cannon / artillery\
+Ember - Energy cannon\
+Lumen - Laser\
+Hornet - Missile\
+Rattler - Repeater/Autocannon\
+Lance - Railgun\
+Vorpal - Ion / EMP (EWAR)
 
 ### Size Guidelines (LG)
 T - Tiny (up to 2x2x2)\
@@ -33,21 +42,23 @@ C - Capital (Anything larger)\
 W - Super Weapon (Special)
 
 ### Tallies (Existing Weapons Only)
-LG: 7\
+LG: 10\
 SG: 1
 
-Kinetic: 5\
+Kinetic: 7\
 Energy: 3\
+Hybrid: 1\
 EWAR: 0
 
-Cannon: 4\
+Cannon: 6\
 Laser: 2\
 Repeater/Autocannon: 1\
+Railgun: 1\
 Gatling/PDC: 0\
 Missile: 1
 
-Tiny: 5\
-Small: 2\
+Tiny: 6\
+Small: 4\
 Medium: 1\
 Large: 0\
 X-Large: 0\
@@ -55,45 +66,52 @@ Capital: 0\
 Super Weapon: 0
 
 ### Full Weapon List
-- `TEC_01_Mk1 ""`
-- `SKC_02_Mk1 ""`
-- `TEL_03_Mk1 ""`
-- `MEL_04_Mk1 ""`
-- `CEE_05_Mk1 ""`
-- `TKM_06_Mk1 ""`
-- `TKC_07_Mk1 ""`
-- `SKR_08_Mk1_S ""`
-- `TKC_09_Mk1 ""`
+Old ID in brackets.
+- `Ember T1` (TEC_01_Mk1)
+- `Anvil S1` (SKC_02_Mk1)
+- `Anvil S2` (SKC_02_Mk2)
+- `Lumen T1` (TEL_03_Mk1)
+- `Lumen M1` (MEL_04_Mk1)
+- `Vorpal C1` (CEE_05_Mk1)
+- `Hornet T1` (TKM_06_Mk1)
+- `Anvil T1` (TKC_07_Mk1)
+- `Rattler S1 (SG)` (SKR_08_Mk1_S)
+- `Hammer T1` (TKC_09_Mk1)
+- `Anvil T2` (TKC_10_Mk1)
+- `Lance S1` (SHR_11_Mk1)
 
 
 #### Finished
 
 
 #### Working
-- `TEC_01_Mk1 ""`
-- `SKC_02_Mk1 ""`
-- `TEL_03_Mk1 ""`
-- `MEL_04_Mk1 ""`
-- `TKM_06_Mk1 ""`
-- `TKC_07_Mk1 ""`
-- `SKR_08_Mk1_S ""`
+- `Ember T1`
+- `Anvil S1`
+- `Lumen T1`
+- `Lumen M1`
+- `Hornet T1`
+- `Anvil T1`
+- `Rattler S1 (SG)`
 
 
 #### Non-Functional
 
 
 #### Not Started
-- `CEE_05_Mk1 ""`
+- `Vorpal C1`
 
 
 
 ### Weapons & Descriptions
-- `TEC_01_Mk1 ""` - Tiny Energy Cannon Mk1 - Turret - A basic energy cannon that doesn't do much on its own, but can be lined up for devastating broadsides.
-- `SKC_02_Mk1 ""` - Small Kinetic Cannon Mk1 - Turret - A double-barreled turret, resembling a cruder version of old naval warship turrets.
-- `TEL_03_Mk1 ""` - Tiny Energy Laser Mk1 - Turret - A Laser turret with long firing length, but relatively low damage.
-- `MEL_04_Mk1 ""` - Medium Energy Laser Mk1 - Turret - Triple-barreled laser turret with long range but relatively low damage.
-- `CEE_05_Mk1 ""` - Capital Energy EWAR-EMP Mk1 - Fixed - Single-Shot Ion Cannon capable of temporarily disabling small ships or sections of larger ships.
-- `TKM_06_Mk1 ""` - Tiny Kinetic Missile Mk1 - Fixed - 8 Micro Missile burst designed for targeting SG. Individual low damage. Reduced damage to LG.
-- `TKC_07_Mk1 ""` - Tiny Kinetic Cannon Mk1 - Turret - TEC-01, but a physical projectile instead of energy.
-- `SKR_08_Mk1_S ""` - Small Kinetic Repeater Mk1 Small (SG) - Fixed - Similar to vanilla autocannon, but fires a 5-shot burst with a short reload.
-- `TKC_09_Mk1 ""` - Tiny Kinetic Cannon Mk1 - Fixed - Broadside-style fixed cannon, very heavy cannon but unable to rotate or elevate. Low speed, very high damage, very long reload.
+- `Ember T1` - Tiny Energy Cannon - Turret - A basic energy cannon that doesn't do much on its own, but can be lined up for devastating broadsides.
+- `Anvil S1` - Small Kinetic Cannon - Turret - A double-barreled turret, resembling a cruder version of old naval warship turrets.
+- `Anvil S2` - Small Kinetic Cannon - Turret - Upgraded Anvil S1.
+- `Lumen T1` - Tiny Energy Laser - Turret - A Laser turret with long firing length, but relatively low damage.
+- `Lumen M1` - Medium Energy Laser - Turret - Triple-barreled laser turret with long range but relatively low damage.
+- `Vorpal C1` - Capital Energy EWAR-EMP - Fixed - Single-Shot Ion Cannon capable of temporarily disabling small ships or sections of larger ships.
+- `Hornet T1` - Tiny Kinetic Missile - Fixed - 8 Micro Missile burst designed for targeting SG. Individual low damage. Reduced damage to LG.
+- `Anvil T1` - Tiny Kinetic Cannon - Turret - Ember T1, but a physical projectile instead of energy.
+- `Rattler S1 (SG)` - Small Kinetic Repeater (SG) - Fixed - Similar to vanilla autocannon, but fires a 5-shot burst with a short reload.
+- `Hammer T1` - Tiny Kinetic Cannon - Fixed - Broadside-style fixed cannon, very heavy cannon but unable to rotate or elevate. Low speed, very high damage, very long reload.
+- `Anvil T2` - Tiny Kinetic Cannon - Turret - Light artillery turret.
+- `Lance S1` - Small Hybrid Railgun - Turret - Charged railgun turret firing a heavy sabot round.

@@ -5,10 +5,10 @@
         <AmmoMagazine>
             <Id>
                 <TypeId>AmmoMagazine</TypeId>
-                <SubtypeId>MW_SKC_02_Mk1_AmmoMag</SubtypeId>
+                <SubtypeId>MW_Anvil_S1_AmmoMag</SubtypeId>
             </Id>
-            <DisplayName>SKC-02 Mk1 Shell</DisplayName>
-            <Icon>Textures\GUI\Icons\Ammo\MW_SKC_02_Mk1_Ammo.dds</Icon>
+            <DisplayName>Anvil S1 Shell</DisplayName>
+            <Icon>Textures\GUI\Icons\Ammo\MW_Anvil_S1_Ammo.dds</Icon>
             <Size>
                 <X>0.25</X>
                 <Y>0.2</Y>
@@ -16,10 +16,10 @@
             </Size>
             <Mass>120</Mass>
             <Volume>120</Volume>
-            <Model>Models\Ammo\MW_SKC_02_Mk1_Shell.mwm</Model>
+            <Model>Models\Ammo\MW_Anvil_S1_Shell.mwm</Model>
             <PhysicalMaterial>Ammo</PhysicalMaterial>
             <Capacity>1</Capacity>
-            <AmmoDefinitionId Subtype="MW_SKC_02_Mk1_Ammo" />
+            <AmmoDefinitionId Subtype="MW_Anvil_S1_Ammo" />
 
             <MinimumOfferAmount>30</MinimumOfferAmount>
             <MaximumOfferAmount>300</MaximumOfferAmount>
@@ -31,10 +31,10 @@
         <AmmoMagazine>
             <Id>
                 <TypeId>AmmoMagazine</TypeId>
-                <SubtypeId>MW_TKM_06_Mk1_AmmoMag</SubtypeId>
+                <SubtypeId>MW_Hornet_T1_AmmoMag</SubtypeId>
             </Id>
-            <DisplayName>TKM-06 Mk1 Missile Round</DisplayName>
-            <Icon>Textures\GUI\Icons\Ammo\MW_TKM_06_Mk1_Ammo.dds</Icon>
+            <DisplayName>Hornet T1 Missile Round</DisplayName>
+            <Icon>Textures\GUI\Icons\Ammo\MW_Hornet_T1_Ammo.dds</Icon>
             <Size>
                 <X>0.25</X>
                 <Y>0.2</Y>
@@ -42,10 +42,10 @@
             </Size>
             <Mass>12</Mass>
             <Volume>4</Volume>
-            <Model>Models\Ammo\MW_TKM_06_Mk1_Ammo.mwm</Model>
+            <Model>Models\Ammo\MW_Hornet_T1_Ammo.mwm</Model>
             <PhysicalMaterial>Ammo</PhysicalMaterial>
             <Capacity>1</Capacity>
-            <AmmoDefinitionId Subtype="MW_TKM_06_Mk1_Ammo" />
+            <AmmoDefinitionId Subtype="MW_Hornet_T1_Ammo" />
 
             <MinimumOfferAmount>30</MinimumOfferAmount>
             <MaximumOfferAmount>300</MaximumOfferAmount>
@@ -57,10 +57,10 @@
         <AmmoMagazine>
             <Id>
                 <TypeId>AmmoMagazine</TypeId>
-                <SubtypeId>MW_TKC_07_Mk1_AmmoMag</SubtypeId>
+                <SubtypeId>MW_Anvil_T1_AmmoMag</SubtypeId>
             </Id>
-            <DisplayName>TKC-07 Mk1 Shell</DisplayName>
-            <Icon>Textures\GUI\Icons\Ammo\MW_SKC_02_Mk1_Ammo.dds</Icon>
+            <DisplayName>Anvil T1 Shell</DisplayName>
+            <Icon>Textures\GUI\Icons\Ammo\MW_Anvil_S1_Ammo.dds</Icon>
             <Size>
                 <X>0.25</X>
                 <Y>0.2</Y>
@@ -68,10 +68,10 @@
             </Size>
             <Mass>40</Mass>
             <Volume>40</Volume>
-            <Model>Models\Ammo\MW_SKC_02_Mk1_Shell.mwm</Model>
+            <Model>Models\Ammo\MW_Anvil_S1_Shell.mwm</Model>
             <PhysicalMaterial>Ammo</PhysicalMaterial>
             <Capacity>1</Capacity>
-            <AmmoDefinitionId Subtype="MW_TKC_07_Mk1_Ammo" />
+            <AmmoDefinitionId Subtype="MW_Anvil_T1_Ammo" />
 
             <MinimumOfferAmount>30</MinimumOfferAmount>
             <MaximumOfferAmount>300</MaximumOfferAmount>
@@ -83,10 +83,10 @@
         <AmmoMagazine>
             <Id>
                 <TypeId>AmmoMagazine</TypeId>
-                <SubtypeId>MW_SKR_08_Mk1_S_AmmoMag</SubtypeId>
+                <SubtypeId>MW_Rattler_S1_SG_AmmoMag</SubtypeId>
             </Id>
-            <DisplayName>SKR-08 Mk1-S Shell</DisplayName>
-            <Icon>Textures\GUI\Icons\Ammo\MW_SKC_02_Mk1_Ammo.dds</Icon>
+            <DisplayName>Rattler S1 (SG) Shell</DisplayName>
+            <Icon>Textures\GUI\Icons\Ammo\MW_Anvil_S1_Ammo.dds</Icon>
             <Size>
                 <X>0.25</X>
                 <Y>0.2</Y>
@@ -97,7 +97,7 @@
             <Model>Models\Weapons\AutocanonShell.mwm</Model>
             <PhysicalMaterial>Ammo</PhysicalMaterial>
             <Capacity>1</Capacity>
-            <AmmoDefinitionId Subtype="MW_SKR_08_Mk1_S_Ammo" />
+            <AmmoDefinitionId Subtype="MW_Rattler_S1_SG_Ammo" />
         
             <MinimumOfferAmount>30</MinimumOfferAmount>
             <MaximumOfferAmount>300</MaximumOfferAmount>
@@ -109,10 +109,10 @@
         <AmmoMagazine>
             <Id>
                 <TypeId>AmmoMagazine</TypeId>
-                <SubtypeId>MW_TKC_09_Mk1_AmmoMag</SubtypeId>
+                <SubtypeId>MW_Hammer_T1_AmmoMag</SubtypeId>
             </Id>
-            <DisplayName>TKC-09 Mk1 Shell</DisplayName>
-            <Icon>Textures\GUI\Icons\Ammo\MW_SKC_02_Mk1_Ammo.dds</Icon>
+            <DisplayName>Hammer T1 Shell</DisplayName>
+            <Icon>Textures\GUI\Icons\Ammo\MW_Anvil_S1_Ammo.dds</Icon>
             <Size>
                 <X>0.25</X>
                 <Y>0.2</Y>
@@ -120,10 +120,10 @@
             </Size>
             <Mass>1000</Mass>
             <Volume>500</Volume>
-            <Model>Models\Ammo\MW_TKC_09_Mk1_Ammo.mwm</Model>
+            <Model>Models\Ammo\MW_Hammer_T1_Ammo.mwm</Model>
             <PhysicalMaterial>Ammo</PhysicalMaterial>
             <Capacity>1</Capacity>
-            <AmmoDefinitionId Subtype="MW_TKC_09_Mk1_Ammo" />
+            <AmmoDefinitionId Subtype="MW_Hammer_T1_Ammo" />
 
             <MinimumOfferAmount>30</MinimumOfferAmount>
             <MaximumOfferAmount>300</MaximumOfferAmount>
@@ -135,10 +135,10 @@
         <AmmoMagazine>
             <Id>
                 <TypeId>AmmoMagazine</TypeId>
-                <SubtypeId>MW_TKC_10_Mk1_AmmoMag</SubtypeId>
+                <SubtypeId>MW_Anvil_T2_AmmoMag</SubtypeId>
             </Id>
-            <DisplayName>TKC-10 Mk1 Shell</DisplayName>
-            <Icon>Textures\GUI\Icons\Ammo\MW_TKC_10_Mk1_Shell.dds</Icon>
+            <DisplayName>Anvil T2 Shell</DisplayName>
+            <Icon>Textures\GUI\Icons\Ammo\MW_Anvil_T2_Shell.dds</Icon>
             <Size>
                 <X>0.25</X>
                 <Y>0.2</Y>
@@ -146,10 +146,10 @@
             </Size>
             <Mass>80</Mass>
             <Volume>30</Volume>
-            <Model>Models\Ammo\MW_TKC_10_Mk1_Shell.mwm</Model>
+            <Model>Models\Ammo\MW_Anvil_T2_Shell.mwm</Model>
             <PhysicalMaterial>Ammo</PhysicalMaterial>
             <Capacity>1</Capacity>
-            <AmmoDefinitionId Subtype="MW_TKC_10_Mk1_Ammo" />
+            <AmmoDefinitionId Subtype="MW_Anvil_T2_Ammo" />
 
             <MinimumOfferAmount>30</MinimumOfferAmount>
             <MaximumOfferAmount>300</MaximumOfferAmount>
@@ -161,10 +161,10 @@
         <AmmoMagazine>
             <Id>
                 <TypeId>AmmoMagazine</TypeId>
-                <SubtypeId>MW_SHR_11_Mk1_AmmoMag</SubtypeId>
+                <SubtypeId>MW_Lance_S1_AmmoMag</SubtypeId>
             </Id>
-            <DisplayName>SHR-11 Mk1 Sabot</DisplayName>
-            <Icon>Textures\GUI\Icons\Ammo\MW_SHR_11_Mk1_Ammo.dds</Icon>
+            <DisplayName>Lance S1 Sabot</DisplayName>
+            <Icon>Textures\GUI\Icons\Ammo\MW_Lance_S1_Ammo.dds</Icon>
             <Size>
                 <X>0.25</X>
                 <Y>0.2</Y>
@@ -172,10 +172,10 @@
             </Size>
             <Mass>500</Mass>
             <Volume>60</Volume>
-            <Model>Models\Ammo\MW_SHR_11_Mk1_Ammo.mwm</Model>
+            <Model>Models\Ammo\MW_Lance_S1_Ammo.mwm</Model>
             <PhysicalMaterial>Ammo</PhysicalMaterial>
             <Capacity>1</Capacity>
-            <AmmoDefinitionId Subtype="MW_SHR_11_Mk1_Ammo" />
+            <AmmoDefinitionId Subtype="MW_Lance_S1_Ammo" />
 
             <MinimumOfferAmount>30</MinimumOfferAmount>
             <MaximumOfferAmount>300</MaximumOfferAmount>
@@ -187,10 +187,10 @@
         <AmmoMagazine>
             <Id>
                 <TypeId>AmmoMagazine</TypeId>
-                <SubtypeId>MW_SKC_02_Mk2_AmmoMag</SubtypeId>
+                <SubtypeId>MW_Anvil_S2_AmmoMag</SubtypeId>
             </Id>
-            <DisplayName>SKC-02 Mk2 Shell</DisplayName>
-            <Icon>Textures\GUI\Icons\Ammo\MW_SKC_02_Mk2_Ammo.dds</Icon>
+            <DisplayName>Anvil S2 Shell</DisplayName>
+            <Icon>Textures\GUI\Icons\Ammo\MW_Anvil_S2_Ammo.dds</Icon>
             <Size>
                 <X>0.25</X>
                 <Y>0.2</Y>
@@ -198,10 +198,10 @@
             </Size>
             <Mass>250</Mass>
             <Volume>45</Volume>
-            <Model>Models\Ammo\MW_SKC_02_Mk2_Ammo.mwm</Model>
+            <Model>Models\Ammo\MW_Anvil_S2_Ammo.mwm</Model>
             <PhysicalMaterial>Ammo</PhysicalMaterial>
             <Capacity>1</Capacity>
-            <AmmoDefinitionId Subtype="MW_SKC_02_Mk2_Ammo" />
+            <AmmoDefinitionId Subtype="MW_Anvil_S2_Ammo" />
 
             <MinimumOfferAmount>30</MinimumOfferAmount>
             <MaximumOfferAmount>300</MaximumOfferAmount>

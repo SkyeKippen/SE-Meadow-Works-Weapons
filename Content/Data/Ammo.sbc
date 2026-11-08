@@ -5,7 +5,7 @@
         <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
             <Id>
                 <TypeId>AmmoDefinition</TypeId>
-                <SubtypeId>MW_SKC_02_Mk1_Ammo</SubtypeId>
+                <SubtypeId>MW_Anvil_S1_Ammo</SubtypeId>
             </Id>
             <BasicProperties>
                 <DesiredSpeed>800</DesiredSpeed>
@@ -28,7 +28,7 @@
         <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
             <Id>
                 <TypeId>AmmoDefinition</TypeId>
-                <SubtypeId>MW_TKM_06_Mk1_Ammo</SubtypeId>
+                <SubtypeId>MW_Hornet_T1_Ammo</SubtypeId>
             </Id>
             <BasicProperties>
                 <DesiredSpeed>800</DesiredSpeed>
@@ -51,7 +51,7 @@
         <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
             <Id>
                 <TypeId>AmmoDefinition</TypeId>
-                <SubtypeId>MW_SKR_08_Mk1_S_Ammo</SubtypeId>
+                <SubtypeId>MW_Rattler_S1_SG_Ammo</SubtypeId>
             </Id>
             <BasicProperties>
                 <DesiredSpeed>800</DesiredSpeed>
@@ -74,7 +74,7 @@
         <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
             <Id>
                 <TypeId>AmmoDefinition</TypeId>
-                <SubtypeId>MW_TKC_09_Mk1_Ammo</SubtypeId>
+                <SubtypeId>MW_Hammer_T1_Ammo</SubtypeId>
             </Id>
             <BasicProperties>
                 <DesiredSpeed>800</DesiredSpeed>
@@ -97,7 +97,7 @@
         <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
             <Id>
                 <TypeId>AmmoDefinition</TypeId>
-                <SubtypeId>MW_TKC_10_Mk1_Ammo</SubtypeId>
+                <SubtypeId>MW_Anvil_T2_Ammo</SubtypeId>
             </Id>
             <BasicProperties>
                 <DesiredSpeed>800</DesiredSpeed>
@@ -120,7 +120,7 @@
         <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
             <Id>
                 <TypeId>AmmoDefinition</TypeId>
-                <SubtypeId>MW_SHR_11_Mk1_Ammo</SubtypeId>
+                <SubtypeId>MW_Lance_S1_Ammo</SubtypeId>
             </Id>
             <BasicProperties>
                 <DesiredSpeed>800</DesiredSpeed>
@@ -143,7 +143,7 @@
         <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
             <Id>
                 <TypeId>AmmoDefinition</TypeId>
-                <SubtypeId>MW_SKC_02_Mk2_Ammo</SubtypeId>
+                <SubtypeId>MW_Anvil_S2_Ammo</SubtypeId>
             </Id>
             <BasicProperties>
                 <DesiredSpeed>800</DesiredSpeed>
