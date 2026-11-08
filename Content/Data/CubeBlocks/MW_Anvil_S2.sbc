@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+			<Id>
+				<TypeId>ConveyorSorter</TypeId>
+				<SubtypeId>MW_Anvil_S2</SubtypeId> <!-- Must match SubtypeId in the weapon .cs -->
+			</Id>
+			<DisplayName>Anvil S2</DisplayName>
+			<Description>Optional Text Here</Description>
+			<Icon>Textures\GUI\Icons\Cubes\MW_Anvil_S2.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="2" z="3" /> <!-- Block size in cubes. Mount points below are in the same units. -->
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\large\MW_Anvil_S2.mwm</Model> <!-- Base model only; the Azimuth/Elevation subparts are loaded through the model's subpart empties. -->
+			<Components>
+				<!-- Order matters: components are installed top to bottom as the block is built. Repeating a type (e.g. SteelPlate first and last) is allowed. -->
+				<Component Subtype="SteelPlate" Count="10" />
+				<Component Subtype="Construction" Count="10" />
+				<Component Subtype="Motor" Count="5" />
+				<Component Subtype="LargeTube" Count="2" />
+				<Component Subtype="Computer" Count="5" />
+				<Component Subtype="SteelPlate" Count="10" />
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" /> <!-- The block stops working once this component is damaged. -->
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="3.00" EndY="2.00" Enabled="false"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="3.00" EndY="2.00" Enabled="false"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="2.00" Enabled="false"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="2.00" Enabled="false"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00" Enabled="false"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00"/>
+			</MountPoints>
+			<InventorySize>
+				<!-- Inventory volume in cubic metres (X*Y*Z). WeaponCore overrides it with InventorySize in the weapon .cs. -->
+				<X>1</X>
+				<Y>1</Y>
+				<Z>1</Z>
+			</InventorySize>
+			<BlockPairName>MW_Anvil_S2</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>40</BuildTimeSeconds>
+			<WeaponDefinitionId Subtype="MW_Anvil_S2" /> <!-- Links the block to its WeaponCore definition -->
+			<ResourceSinkGroup>Defense</ResourceSinkGroup> <!-- Power priority group -->
+		</Definition>
+	</CubeBlocks>
+</Definitions>
