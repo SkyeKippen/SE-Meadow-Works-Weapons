@@ -55,7 +55,7 @@
                 <SubtypeId>MW_Rattler_S1_SG_AmmoBP</SubtypeId>
             </Id>
             <DisplayName>Rattler S1 (SG) Shell</DisplayName>
-            <Icon>Textures\GUI\Icons\Ammo\MW_Anvil_S1_Ammo.dds</Icon>
+            <Icon>Textures\GUI\Icons\Ammo\MW_Rattler_S1_SG_Ammo.dds</Icon>
             <Prerequisites>
                 <Item Amount="4" TypeId="Ingot" SubtypeId="Iron" />
                 <Item Amount="2" TypeId="Ingot" SubtypeId="Nickel" />
