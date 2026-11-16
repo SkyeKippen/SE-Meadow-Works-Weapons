@@ -51,6 +51,29 @@
         <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
             <Id>
                 <TypeId>AmmoDefinition</TypeId>
+                <SubtypeId>MW_Hornet_T2_Ammo</SubtypeId>
+            </Id>
+            <BasicProperties>
+                <DesiredSpeed>800</DesiredSpeed>
+                <SpeedVariance>0</SpeedVariance>
+                <MaxTrajectory>800</MaxTrajectory>
+                <BackkickForce>1000</BackkickForce>
+                <PhysicalMaterial>GunAutocannonBullet</PhysicalMaterial>
+                <ExplosiveDamageMultiplier>0.8</ExplosiveDamageMultiplier>
+                <DeathMessage>CauseOfDeath_HeavyWeapons</DeathMessage>
+            </BasicProperties>
+            <ProjectileProperties>
+                <ProjectileTrailScale>0.6</ProjectileTrailScale>
+                <ProjectileHitImpulse>3</ProjectileHitImpulse>
+                <ProjectileMassDamage>500</ProjectileMassDamage>
+                <ProjectileHealthDamage>85</ProjectileHealthDamage>
+                <HeadShot>true</HeadShot>
+            </ProjectileProperties>
+        </Ammo>
+
+        <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+            <Id>
+                <TypeId>AmmoDefinition</TypeId>
                 <SubtypeId>MW_Rattler_S1_SG_Ammo</SubtypeId>
             </Id>
             <BasicProperties>
@@ -159,6 +182,52 @@
                 <ProjectileHitImpulse>3</ProjectileHitImpulse>
                 <ProjectileMassDamage>500</ProjectileMassDamage>
                 <ProjectileHealthDamage>85</ProjectileHealthDamage>
+                <HeadShot>true</HeadShot>
+            </ProjectileProperties>
+        </Ammo>
+
+        <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+            <Id>
+                <TypeId>AmmoDefinition</TypeId>
+                <SubtypeId>MW_Thumper_M1_SG_Ammo</SubtypeId>
+            </Id>
+            <BasicProperties>
+                <DesiredSpeed>200</DesiredSpeed>
+                <SpeedVariance>0</SpeedVariance>
+                <MaxTrajectory>1200</MaxTrajectory>
+                <BackkickForce>3000</BackkickForce>
+                <PhysicalMaterial>GunAutocannonBullet</PhysicalMaterial>
+                <ExplosiveDamageMultiplier>1</ExplosiveDamageMultiplier>
+                <DeathMessage>CauseOfDeath_HeavyWeapons</DeathMessage>
+            </BasicProperties>
+            <ProjectileProperties>
+                <ProjectileTrailScale>0.6</ProjectileTrailScale>
+                <ProjectileHitImpulse>10</ProjectileHitImpulse>
+                <ProjectileMassDamage>2000</ProjectileMassDamage>
+                <ProjectileHealthDamage>200</ProjectileHealthDamage>
+                <HeadShot>true</HeadShot>
+            </ProjectileProperties>
+        </Ammo>
+
+        <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+            <Id>
+                <TypeId>AmmoDefinition</TypeId>
+                <SubtypeId>MW_Hammer_L1_Ammo</SubtypeId>
+            </Id>
+            <BasicProperties>
+                <DesiredSpeed>1000</DesiredSpeed>
+                <SpeedVariance>0</SpeedVariance>
+                <MaxTrajectory>3000</MaxTrajectory>
+                <BackkickForce>8000</BackkickForce>
+                <PhysicalMaterial>GunAutocannonBullet</PhysicalMaterial>
+                <ExplosiveDamageMultiplier>1</ExplosiveDamageMultiplier>
+                <DeathMessage>CauseOfDeath_HeavyWeapons</DeathMessage>
+            </BasicProperties>
+            <ProjectileProperties>
+                <ProjectileTrailScale>1</ProjectileTrailScale>
+                <ProjectileHitImpulse>20</ProjectileHitImpulse>
+                <ProjectileMassDamage>3000</ProjectileMassDamage>
+                <ProjectileHealthDamage>200</ProjectileHealthDamage>
                 <HeadShot>true</HeadShot>
             </ProjectileProperties>
         </Ammo>

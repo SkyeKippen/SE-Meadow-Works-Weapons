@@ -23,13 +23,14 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>Models\Cubes\large\MW_Anvil_T2.mwm</Model> <!-- Base model only; the Azimuth/Elevation subparts are loaded through the model's subpart empties. -->
 			<Components>
-				<!-- Order matters: components are installed top to bottom as the block is built. Repeating a type (e.g. SteelPlate first and last) is allowed. -->
-				<Component Subtype="SteelPlate" Count="10" />
+				<Component Subtype="SteelPlate" Count="30" />
+				<Component Subtype="Construction" Count="20" />
+				<Component Subtype="Motor" Count="20" />
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="SmallTube" Count="20" />
+				<Component Subtype="Computer" Count="40" />
 				<Component Subtype="Construction" Count="10" />
-				<Component Subtype="Motor" Count="5" />
-				<Component Subtype="LargeTube" Count="2" />
-				<Component Subtype="Computer" Count="5" />
-				<Component Subtype="SteelPlate" Count="10" />
+				<Component Subtype="SteelPlate" Count="50" />
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0" /> <!-- The block stops working once this component is damaged. -->
 			<MountPoints>

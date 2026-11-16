@@ -177,5 +177,37 @@
             </Waves>
         </Sound>
 
+        <Sound>
+            <Id>
+                <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+                <SubtypeId>MW_Thumper_M1_SG_Shoot</SubtypeId>
+            </Id>
+            <Category>SHOT</Category>
+            <MaxDistance>200</MaxDistance>
+            <PreventSynchronization>0</PreventSynchronization>
+            <Volume>1.25</Volume>
+            <Waves>
+                <Wave Type="D3">
+                    <Start>Audio\MW_Thumper_M1_SG_Shoot.wav</Start>
+                </Wave>
+            </Waves>
+        </Sound>
+
+        <Sound>
+            <Id>
+                <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+                <SubtypeId>MW_Hammer_L1_Shoot</SubtypeId>
+            </Id>
+            <Category>SHOT</Category>
+            <MaxDistance>400</MaxDistance>
+            <PreventSynchronization>0</PreventSynchronization>
+            <Volume>1.25</Volume>
+            <Waves>
+                <Wave Type="D3">
+                    <Start>Audio\MW_Hammer_L1_Shoot.wav</Start>
+                </Wave>
+            </Waves>
+        </Sound>
+
     </Sounds>
 </Definitions>

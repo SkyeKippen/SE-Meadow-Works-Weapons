@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+			<Id>
+				<TypeId>ConveyorSorter</TypeId>
+				<SubtypeId>MW_Thumper_M1_SG</SubtypeId>
+			</Id>
+			<DisplayName>Thumper M1 (SG)</DisplayName>
+			<Description>Forward-facing mortar-style chute that lobs unguided bombs.</Description>
+			<Icon>Textures\GUI\Icons\Cubes\MW_Thumper_M1_SG.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="3" z="5"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\MW_Thumper_M1_SG.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="25" />
+				<Component Subtype="Construction" Count="15" />
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="Motor" Count="20" />
+				<Component Subtype="LargeTube" Count="12" />
+				<Component Subtype="Computer" Count="8" />
+				<Component Subtype="SteelPlate" Count="10" />
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00" Enabled="false"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00" Default="true"/>
+				<MountPoint Side="Left" StartX="3.00" StartY="0.00" EndX="5.00" EndY="3.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="3.00" EndY="2.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="3.00" EndY="5.00"/>
+			</MountPoints>
+			<InventorySize>
+				<X>1.1447</X>
+				<Y>1.1447</Y>
+				<Z>1.1447</Z>
+			</InventorySize>
+			<BlockPairName>MW_Thumper_M1_SG</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>40</BuildTimeSeconds>
+			<WeaponDefinitionId Subtype="MW_Thumper_M1_SG" />
+			<ResourceSinkGroup>Defense</ResourceSinkGroup>
+		</Definition>
+	</CubeBlocks>
+</Definitions>

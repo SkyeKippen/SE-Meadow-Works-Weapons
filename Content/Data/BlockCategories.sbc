@@ -18,12 +18,33 @@
                 <string>ConveyorSorter/MW_Lumen_T1</string>
                 <string>ConveyorSorter/MW_Lumen_M1</string>
                 <string>ConveyorSorter/MW_Hornet_T1</string>
+                <string>ConveyorSorter/MW_Hornet_T2</string>
                 <string>ConveyorSorter/MW_Anvil_T1</string>
                 <string>ConveyorSorter/MW_Rattler_S1_SG</string>
                 <string>ConveyorSorter/MW_Hammer_T1</string>
                 <string>ConveyorSorter/MW_Anvil_T2</string>
                 <string>ConveyorSorter/MW_Lance_S1</string>
                 <string>ConveyorSorter/MW_Anvil_S2</string>
+                <string>ConveyorSorter/MW_Thumper_M1_SG</string>
+                <string>ConveyorSorter/MW_Hammer_L1</string>
+            </ItemIds>
+        </Category>
+
+        <!-- Ship controls "Weapon Blocks" toolbar category (merges with vanilla by Name) -->
+
+        <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+            <Id>
+                <TypeId>GuiBlockCategoryDefinition</TypeId>
+                <SubtypeId>Weapons_Ship</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Category_ShipWeapons</DisplayName>
+            <Name>ShipWeapons</Name>
+            <SearchBlocks>false</SearchBlocks>
+            <IsShipCategory>true</IsShipCategory>
+            <IsBlockCategory>false</IsBlockCategory>
+            <IsToolCategory>true</IsToolCategory>
+            <ItemIds>
+                <string>ConveyorSorter/MW_Rattler_S1_SG</string>
             </ItemIds>
         </Category>
 

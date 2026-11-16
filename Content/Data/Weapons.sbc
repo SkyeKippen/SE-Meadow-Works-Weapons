@@ -115,6 +115,28 @@
         <Weapon>
             <Id>
                 <TypeId>WeaponDefinition</TypeId>
+                <SubtypeId>MW_Hornet_T2</SubtypeId>
+            </Id>
+            <ProjectileAmmoData RateOfFire="480" ShootSoundName="WepShipAutocannonShot" ShotsInBurst="1" />
+            <ReleaseTimeAfterFire>100</ReleaseTimeAfterFire>
+            <DeviateShotAngle>0.15</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.15</DeviateShotAngleAiming>
+            <MuzzleFlashLifeSpan>0</MuzzleFlashLifeSpan>
+            <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+            <Effects>
+                <Effect Action="Shoot" Dummy="muzzle_projectile" Particle="Muzzle_Flash_Autocannon" Loop="true" InstantStop="false" OffsetX="0" OffsetY="0" OffsetZ="-1.6"/>
+                <Effect Action="Shoot" Dummy="None" Particle="Smoke_Autocannon" Loop="true" InstantStop="false" OffsetX="0" OffsetY="0" OffsetZ="-1.6"
+                        ParticleBirthStart="1" ParticleBirthMin="1" ParticleBirthMax="2" ParticleBirthDecrease="1" ParticleBirthIncrease="1" />
+            </Effects>
+            <AmmoMagazines>
+                <AmmoMagazine Subtype="MW_Hornet_T2_AmmoMag" />
+            </AmmoMagazines>
+            <ReloadTime>4000</ReloadTime>
+        </Weapon>
+
+        <Weapon>
+            <Id>
+                <TypeId>WeaponDefinition</TypeId>
                 <SubtypeId>MW_Anvil_T1</SubtypeId>
             </Id>
             <ProjectileAmmoData RateOfFire="30" ShootSoundName="WepShipAutocannonShot" ShotsInBurst="1" />
@@ -242,6 +264,50 @@
                 <AmmoMagazine Subtype="MW_Anvil_S2_AmmoMag" />
             </AmmoMagazines>
             <ReloadTime>4000</ReloadTime>
+        </Weapon>
+
+        <Weapon>
+            <Id>
+                <TypeId>WeaponDefinition</TypeId>
+                <SubtypeId>MW_Thumper_M1_SG</SubtypeId>
+            </Id>
+            <ProjectileAmmoData RateOfFire="6" ShootSoundName="WepShipAutocannonShot" ShotsInBurst="1" />
+            <ReleaseTimeAfterFire>100</ReleaseTimeAfterFire>
+            <DeviateShotAngle>0.15</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.15</DeviateShotAngleAiming>
+            <MuzzleFlashLifeSpan>0</MuzzleFlashLifeSpan>
+            <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+            <Effects>
+                <Effect Action="Shoot" Dummy="muzzle_projectile" Particle="Muzzle_Flash_Autocannon" Loop="true" InstantStop="false" OffsetX="0" OffsetY="0" OffsetZ="-1.6"/>
+                <Effect Action="Shoot" Dummy="None" Particle="Smoke_Autocannon" Loop="true" InstantStop="false" OffsetX="0" OffsetY="0" OffsetZ="-1.6"
+                        ParticleBirthStart="1" ParticleBirthMin="1" ParticleBirthMax="2" ParticleBirthDecrease="1" ParticleBirthIncrease="1" />
+            </Effects>
+            <AmmoMagazines>
+                <AmmoMagazine Subtype="MW_Thumper_M1_SG_AmmoMag" />
+            </AmmoMagazines>
+            <ReloadTime>8000</ReloadTime>
+        </Weapon>
+
+        <Weapon>
+            <Id>
+                <TypeId>WeaponDefinition</TypeId>
+                <SubtypeId>MW_Hammer_L1</SubtypeId>
+            </Id>
+            <ProjectileAmmoData RateOfFire="12" ShootSoundName="WepShipAutocannonShot" ShotsInBurst="1" />
+            <ReleaseTimeAfterFire>100</ReleaseTimeAfterFire>
+            <DeviateShotAngle>0.1</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.1</DeviateShotAngleAiming>
+            <MuzzleFlashLifeSpan>0</MuzzleFlashLifeSpan>
+            <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+            <Effects>
+                <Effect Action="Shoot" Dummy="muzzle_projectile" Particle="Muzzle_Flash_Autocannon" Loop="true" InstantStop="false" OffsetX="0" OffsetY="0" OffsetZ="-1.6"/>
+                <Effect Action="Shoot" Dummy="None" Particle="Smoke_Autocannon" Loop="true" InstantStop="false" OffsetX="0" OffsetY="0" OffsetZ="-1.6"
+                        ParticleBirthStart="1" ParticleBirthMin="1" ParticleBirthMax="2" ParticleBirthDecrease="1" ParticleBirthIncrease="1" />
+            </Effects>
+            <AmmoMagazines>
+                <AmmoMagazine Subtype="MW_Hammer_L1_AmmoMag" />
+            </AmmoMagazines>
+            <ReloadTime>6000</ReloadTime>
         </Weapon>
 
     </Weapons>

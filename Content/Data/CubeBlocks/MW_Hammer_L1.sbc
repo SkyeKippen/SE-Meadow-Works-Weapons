@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+			<Id>
+				<TypeId>ConveyorSorter</TypeId>
+				<SubtypeId>MW_Hammer_L1</SubtypeId> <!-- Must match SubtypeId in the weapon .cs -->
+			</Id>
+			<DisplayName>Hammer L1</DisplayName>
+			<Description>Heavy artillery turret with two elevating arms, each carrying two stacked long-range barrels.</Description>
+			<Icon>Textures\GUI\Icons\Cubes\MW_Hammer_L1.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="7" y="4" z="7" /> <!-- Block size in cubes. Mount points below are in the same units. -->
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\large\MW_Hammer_L1.mwm</Model> <!-- Base model only; the Azimuth/Elevation subparts are loaded through the model's subpart empties. -->
+			<Components>
+				<!-- Order matters: components are installed top to bottom as the block is built. Repeating a type (e.g. SteelPlate first and last) is allowed. -->
+				<Component Subtype="SteelPlate" Count="150" />
+				<Component Subtype="Construction" Count="120" />
+				<Component Subtype="MetalGrid" Count="60" />
+				<Component Subtype="Motor" Count="60" />
+				<Component Subtype="LargeTube" Count="80" />
+				<Component Subtype="Computer" Count="40" />
+				<Component Subtype="SteelPlate" Count="450" />
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" /> <!-- The block stops working once this component is damaged. -->
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="7.00" EndY="4.00" Enabled="false"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="7.00" EndY="4.00" Enabled="false"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="7.00" EndY="4.00" Enabled="false"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="7.00" EndY="4.00" Enabled="false"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="7.00" EndY="7.00" Enabled="false"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="7.00" EndY="7.00"/>
+			</MountPoints>
+			<InventorySize>
+				<!-- Inventory volume in cubic metres (X*Y*Z). WeaponCore overrides it with InventorySize in the weapon .cs. -->
+				<X>3</X>
+				<Y>2</Y>
+				<Z>3</Z>
+			</InventorySize>
+			<BlockPairName>MW_Hammer_L1</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>90</BuildTimeSeconds>
+			<WeaponDefinitionId Subtype="MW_Hammer_L1" /> <!-- Links the block to its WeaponCore definition -->
+			<ResourceSinkGroup>Defense</ResourceSinkGroup> <!-- Power priority group -->
+		</Definition>
+	</CubeBlocks>
+</Definitions>

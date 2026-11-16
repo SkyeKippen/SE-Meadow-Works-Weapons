@@ -14,14 +14,16 @@
 			<Size x="3" y="2" z="3" /> <!-- Block size in cubes. Mount points below are in the same units. -->
 			<ModelOffset x="0" y="0" z="0" />
 			<Model>Models\Cubes\large\MW_Lance_S1.mwm</Model> <!-- Base model only; the Azimuth/Elevation subparts are loaded through the model's subpart empties. -->
+			<EmissiveColorPreset>MW_NeonOrange_Constant</EmissiveColorPreset> <!-- Data\EmissiveColors.sbc: the Emissive glow parts stay neon orange in every power and damage state. -->
 			<Components>
-				<!-- Order matters: components are installed top to bottom as the block is built. Repeating a type (e.g. SteelPlate first and last) is allowed. -->
-				<Component Subtype="SteelPlate" Count="10" />
-				<Component Subtype="Construction" Count="10" />
-				<Component Subtype="Motor" Count="5" />
-				<Component Subtype="LargeTube" Count="2" />
-				<Component Subtype="Computer" Count="5" />
-				<Component Subtype="SteelPlate" Count="10" />
+				<Component Subtype="SteelPlate" Count="25" />
+				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="PowerCell" Count="80" />
+				<Component Subtype="Superconductor" Count="100" />
+				<Component Subtype="LargeTube" Count="20" />
+				<Component Subtype="Computer" Count="200" />
+				<Component Subtype="Construction" Count="20" />
+				<Component Subtype="SteelPlate" Count="50" />
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0" /> <!-- The block stops working once this component is damaged. -->
 			<MountPoints>

@@ -18,6 +18,7 @@
 				<Component Subtype="SteelPlate" Count="25" />
 				<Component Subtype="Construction" Count="50" />
 				<Component Subtype="Motor" Count="50" />
+				<Component Subtype="MetalGrid" Count="20" />
 				<Component Subtype="LargeTube" Count="40" />
 				<Component Subtype="Computer" Count="10" />
 				<Component Subtype="SteelPlate" Count="50" />

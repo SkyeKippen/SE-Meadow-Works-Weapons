@@ -30,7 +30,8 @@ Lumen - Laser\
 Hornet - Missile\
 Rattler - Repeater/Autocannon\
 Lance - Railgun\
-Vorpal - Ion / EMP (EWAR)
+Vorpal - Ion / EMP (EWAR)\
+Thumper - Unguided bomb launcher / mortar
 
 ### Size Guidelines (LG)
 T - Tiny (up to 2x2x2)\
@@ -42,10 +43,10 @@ C - Capital (Anything larger)\
 W - Super Weapon (Special)
 
 ### Tallies (Existing Weapons Only)
-LG: 10\
-SG: 1
+LG: 11\
+SG: 2
 
-Kinetic: 7\
+Kinetic: 9\
 Energy: 3\
 Hybrid: 1\
 EWAR: 0
@@ -55,11 +56,12 @@ Laser: 2\
 Repeater/Autocannon: 1\
 Railgun: 1\
 Gatling/PDC: 0\
-Missile: 1
+Missile: 2\
+Bomb/Mortar: 1
 
-Tiny: 6\
+Tiny: 7\
 Small: 4\
-Medium: 1\
+Medium: 2\
 Large: 0\
 X-Large: 0\
 Capital: 0\
@@ -79,6 +81,8 @@ Old ID in brackets.
 - `Hammer T1` (TKC_09_Mk1)
 - `Anvil T2` (TKC_10_Mk1)
 - `Lance S1` (SHR_11_Mk1)
+- `Thumper M1 (SG)` (new, no old ID)
+- `Hornet T2` (new, no old ID)
 
 
 #### Finished
@@ -95,6 +99,8 @@ Old ID in brackets.
 
 
 #### Non-Functional
+- `Thumper M1 (SG)` - Model only
+- `Hornet T2` - Untested in game; borrows Hornet T1's firing sound
 
 
 #### Not Started
@@ -115,3 +121,5 @@ Old ID in brackets.
 - `Hammer T1` - Tiny Kinetic Cannon - Fixed - Broadside-style fixed cannon, very heavy cannon but unable to rotate or elevate. Low speed, very high damage, very long reload.
 - `Anvil T2` - Tiny Kinetic Cannon - Turret - Light artillery turret.
 - `Lance S1` - Small Hybrid Railgun - Turret - Charged railgun turret firing a heavy sabot round.
+- `Thumper M1 (SG)` - Medium Kinetic Bomb Launcher (SG) - Fixed - Forward-facing mortar-style chute that lobs unguided "dumb" bombs. Large conveyor port on the back.
+- `Hornet T2` - Tiny Kinetic Missile - Fixed - 6-tube version of the Hornet T1 micro missile launcher.

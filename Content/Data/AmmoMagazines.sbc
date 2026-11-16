@@ -57,6 +57,32 @@
         <AmmoMagazine>
             <Id>
                 <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>MW_Hornet_T2_AmmoMag</SubtypeId>
+            </Id>
+            <DisplayName>Hornet T2 Missile Round</DisplayName>
+            <Icon>Textures\GUI\Icons\Ammo\MW_Hornet_T2_Ammo.dds</Icon>
+            <Size>
+                <X>0.25</X>
+                <Y>0.2</Y>
+                <Z>0.2</Z>
+            </Size>
+            <Mass>12</Mass>
+            <Volume>4</Volume>
+            <Model>Models\Ammo\MW_Hornet_T2_Ammo.mwm</Model>
+            <PhysicalMaterial>Ammo</PhysicalMaterial>
+            <Capacity>1</Capacity>
+            <AmmoDefinitionId Subtype="MW_Hornet_T2_Ammo" />
+
+            <MinimumOfferAmount>30</MinimumOfferAmount>
+            <MaximumOfferAmount>300</MaximumOfferAmount>
+            <MinimumOrderAmount>10</MinimumOrderAmount>
+            <MaximumOrderAmount>1000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </AmmoMagazine>
+
+        <AmmoMagazine>
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
                 <SubtypeId>MW_Anvil_T1_AmmoMag</SubtypeId>
             </Id>
             <DisplayName>Anvil T1 Shell</DisplayName>
@@ -88,9 +114,9 @@
             <DisplayName>Rattler S1 (SG) Shell</DisplayName>
             <Icon>Textures\GUI\Icons\Ammo\MW_Rattler_S1_SG_Ammo.dds</Icon>
             <Size>
-                <X>0.25</X>
-                <Y>0.2</Y>
-                <Z>0.2</Z>
+                <X>0.04</X>
+                <Y>0.04</Y>
+                <Z>0.15</Z>
             </Size>
             <Mass>2</Mass>
             <Volume>1</Volume>
@@ -202,6 +228,58 @@
             <PhysicalMaterial>Ammo</PhysicalMaterial>
             <Capacity>1</Capacity>
             <AmmoDefinitionId Subtype="MW_Anvil_S2_Ammo" />
+
+            <MinimumOfferAmount>30</MinimumOfferAmount>
+            <MaximumOfferAmount>300</MaximumOfferAmount>
+            <MinimumOrderAmount>10</MinimumOrderAmount>
+            <MaximumOrderAmount>1000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </AmmoMagazine>
+
+        <AmmoMagazine>
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>MW_Thumper_M1_SG_AmmoMag</SubtypeId>
+            </Id>
+            <DisplayName>Thumper M1 (SG) Bomb</DisplayName>
+            <Icon>Textures\GUI\Icons\Ammo\MW_Thumper_M1_SG_Ammo.dds</Icon>
+            <Size>
+                <X>0.64</X>
+                <Y>0.64</Y>
+                <Z>0.96</Z>
+            </Size>
+            <Mass>1000</Mass>
+            <Volume>500</Volume>
+            <Model>Models\Ammo\MW_Thumper_M1_SG_Ammo.mwm</Model>
+            <PhysicalMaterial>Ammo</PhysicalMaterial>
+            <Capacity>1</Capacity>
+            <AmmoDefinitionId Subtype="MW_Thumper_M1_SG_Ammo" />
+
+            <MinimumOfferAmount>30</MinimumOfferAmount>
+            <MaximumOfferAmount>300</MaximumOfferAmount>
+            <MinimumOrderAmount>10</MinimumOrderAmount>
+            <MaximumOrderAmount>1000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </AmmoMagazine>
+
+        <AmmoMagazine>
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>MW_Hammer_L1_AmmoMag</SubtypeId>
+            </Id>
+            <DisplayName>Hammer L1 Shell</DisplayName>
+            <Icon>Textures\GUI\Icons\Ammo\MW_Hammer_L1_Ammo.dds</Icon>
+            <Size>
+                <X>0.25</X>
+                <Y>0.2</Y>
+                <Z>0.2</Z>
+            </Size>
+            <Mass>600</Mass>
+            <Volume>400</Volume>
+            <Model>Models\Ammo\MW_Hammer_L1_Ammo.mwm</Model>
+            <PhysicalMaterial>Ammo</PhysicalMaterial>
+            <Capacity>1</Capacity>
+            <AmmoDefinitionId Subtype="MW_Hammer_L1_Ammo" />
 
             <MinimumOfferAmount>30</MinimumOfferAmount>
             <MaximumOfferAmount>300</MaximumOfferAmount>
